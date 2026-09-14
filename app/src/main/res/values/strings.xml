@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Navi_Rotation</string>
+    <string name="search_hint">검색</string>
+    <string name="find_road">길찾기</string>
+    <string name="search_destination">도착지를 검색해주세요.</string>
+    <string name="empty_search_list">검색 결과가 없습니다.</string>
+    <string name="search_results_description">검색 결과 리스트</string>
+
+
+
+</resources>

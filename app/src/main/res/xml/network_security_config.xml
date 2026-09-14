@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- 기본 설정: cleartext 금지 -->
+    <base-config cleartextTrafficPermitted="false" />
+
+    <!-- cctvsec.ktict.co.kr 도메인만 cleartext 허용 -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">cctvsec.ktict.co.kr</domain>
+    </domain-config>
+</network-security-config>
